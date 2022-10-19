@@ -7,7 +7,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.TODO }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - name: Build my exercise
