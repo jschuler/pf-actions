@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jschuler/pf-actions/issues"
   },
-  "homepage": "https://github.com/jschuler/pf-actions#readme"
+  "homepage": "https://github.com/jschuler/pf-actions#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
